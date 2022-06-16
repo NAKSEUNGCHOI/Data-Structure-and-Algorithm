@@ -9,7 +9,7 @@ Practice 1 Linked List
 
 ## Authors
 
-* Nakseung Choi (UW ECE master student) https://www.linkedin.com/in/nakseung-choi-090a1b69/
+* Nakseung Choi (UW ECE grad student) https://www.linkedin.com/in/nakseung-choi-090a1b69/
 
 ## Version History
 
