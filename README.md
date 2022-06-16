@@ -7,6 +7,7 @@ UW ECE Data structure and algorithm
 * Linked List
 * Inserting a node at the beginning.
 * Inserting a node at the end.
+* Inserting a node at n-th position.
 
 ## Authors
 
