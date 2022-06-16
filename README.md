@@ -1,11 +1,11 @@
 # Data-Structure-and-Algorithm
 
 UW ECE Data structure and algorithm
-Practice 1 Linked List
 
 ## Description
 
 * Inserting a node at the beginning.
+* Inserting a node at the end.
 
 ## Authors
 
@@ -14,7 +14,7 @@ Practice 1 Linked List
 ## Version History
 
 * 0.2
-    * Still working on it.
+    * Still working on Linked List.
 * 0.1
     * Initial Release
 
