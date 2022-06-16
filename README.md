@@ -4,6 +4,7 @@ UW ECE Data structure and algorithm
 
 ## Description
 
+* Linked List
 * Inserting a node at the beginning.
 * Inserting a node at the end.
 
