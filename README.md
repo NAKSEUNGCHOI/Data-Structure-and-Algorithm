@@ -20,4 +20,4 @@ UW ECE Data structure and algorithm
 
 ## License
 
-This project is licensed under Nakseung Choi and Cody Birkland - see the LICENSE.md file for details
+This project is licensed under Nakseung Choi- see the LICENSE.md file for details
