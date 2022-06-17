@@ -5,8 +5,8 @@
  * @brief Linked List Practice6: Reversing nodes using PrintRecursion.
  * Iterative approach to reversing nodes would be better and efficient.
  * This is because Iterative approach only uses one temp variable,
- * whereas space of stack section of the momory for so many functions calls.
- * Thus, it uses implicit memory.
+ * whereas recursive approaches uses implicit memory space of stack section
+ * for a number of function calls.
  */
 #include <stdio.h>
 #include <stdlib.h>
