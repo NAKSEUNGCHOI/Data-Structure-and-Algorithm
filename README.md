@@ -2,12 +2,14 @@
 
 UW ECE Data structure and algorithm
 
-## Description
+## Table of Contents
 
 * Linked List
 * Inserting a node at the beginning.
 * Inserting a node at the end.
 * Inserting a node at n-th position.
+* Deleting a node at n-th position.
+* Reversing nodes.
 
 ## Authors
 
