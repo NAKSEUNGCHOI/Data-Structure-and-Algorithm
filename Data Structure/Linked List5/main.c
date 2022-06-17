@@ -2,7 +2,7 @@
  * @file main.c
  * @author Nakseung Choi
  * @date 06-16-2022
- * @brief Linked List Practice4: Deleting a node at n-th position.
+ * @brief Linked List Practice5: Reversing nodes.
  */
 #include <stdio.h>
 #include <stdlib.h>
