@@ -45,7 +45,6 @@ int Push(struct linked_list* head){
  * Push(struct linked_list* head)
  * @brief print from stack. It is LIFO
  */
-int P
 void printfromstack(){
     printf("\nStack:\n");
     while(top>=0) printf("%d ", stack[top--]);
