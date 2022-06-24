@@ -1,3 +1,8 @@
+/**
+ *  main.c
+ *  @brief currently the code has an error.
+ */
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <stdbool.h>
