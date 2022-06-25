@@ -1,6 +1,5 @@
 # depslib dependency file v1.0
-1655965863 source:c:\users\chlsk\onedrive\desktop\code blocks\stacks6\main.c
+1656145593 source:c:\users\chlsk\onedrive\desktop\code blocks\stacks6\main.c
 	<stdio.h>
-	<stdlib.h>
-	<stdbool.h>
+	<ctype.h>
 
