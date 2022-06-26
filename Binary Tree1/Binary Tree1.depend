@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1656272533 source:c:\users\chlsk\onedrive\desktop\code blocks\binary tree1\main.c
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+
