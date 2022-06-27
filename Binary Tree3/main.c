@@ -53,11 +53,19 @@
  *          Binary Search Tree
  *
  *          ** Finding the min and max value using a recursive way **
+ * Height of tree:
  *
+ * Height of tree is number of edges in longest path from root to a leaf node.
+ * This means that height of tree is equal to height of root.
+ * Height of node is number of edges in longest path from a node to a leaf node.
+ *
+ * Depth:
+ * number of edges in path from root to that node.
  */
 #include <stdio.h>
 #include <stdlib.h>
 #include <stdbool.h>
+#include <math.h>
 
 struct Node{
     int data;
@@ -90,6 +98,12 @@ int FindMax(struct Node* root){
         return root->data;
     }
     return FindMin(root->right);
+}
+
+int FindHeight(struct Node* root){
+    if(root == NULL) return -1;
+    int result = fmax(FindHeight(root->left), FindHeight(root->right)) + 1;
+    return result;
 }
 
 struct Node* minValueNode(struct Node* node){
@@ -150,7 +164,8 @@ int main(){
         printf("3. Search Operation\n");
         printf("4. Search Minimum Value\n");
         printf("5. Search Maximum Value\n");
-        printf("6. Exit Operation\n");
+        printf("6. Search Height of Tree\n");
+        printf("7. Exit Operation\n");
         printf("Enter a number: ");
         scanf("%d", &value);
         switch(value){
@@ -174,6 +189,9 @@ int main(){
                 printf("The maximum value is %d\n.", FindMax(root));
                 break;
             case 6:
+                printf("The height of tree is %d\n.", FindHeight(root));
+                break;
+            case 7:
                 exit(0);
             default:
                 printf("Incorrect Operation. Try again.");
