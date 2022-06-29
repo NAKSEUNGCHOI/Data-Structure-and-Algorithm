@@ -18,7 +18,8 @@ To be continued...
 * Nakseung Choi (UW ECE grad student) https://www.linkedin.com/in/nakseung-choi-090a1b69/
 
 ## Version History
-* 6/28/2022 Worked on Level, In, Pre, Post-order.
+* 6/28/2022 
+    * Worked on Level, In, Pre, Post-order.
 * 0.2
     * Still working on Linked List.
 * 0.1
