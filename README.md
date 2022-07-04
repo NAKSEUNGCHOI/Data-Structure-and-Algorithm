@@ -1,6 +1,6 @@
 # Data-Structure-and-Algorithm
 
-UW ECE Data structure and algorithm
+UW CSE Data structure and algorithm
 
 ## Table of Contents
 
