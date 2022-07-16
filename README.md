@@ -15,16 +15,10 @@ To be continued...
 
 ## Authors
 
-* Nakseung Choi (UW ECE grad student) https://www.linkedin.com/in/nakseung-choi-090a1b69/
+* Nakseung Choi (grad student @ ECE UW) https://www.linkedin.com/in/nakseung-choi-090a1b69/
 
-## Version History
-* 6/28/2022 
-    * Worked on Level, In, Pre, Post-order.
-* 0.2
-    * Still working on Linked List.
-* 0.1
-    * Initial Release
+## Release Notes
+* <pre> Worked on Level, In, Pre, Post-order.                  6-28-2022 </pre> 
+* <pre> Working on Linked List.                                6-25-2022 </pre>
+* <pre> Initial Release.                                       6-22-2022 </pre>    
 
-## License
-
-No Licence. Open to everyone!
