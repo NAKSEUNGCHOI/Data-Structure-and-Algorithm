@@ -1,8 +1,16 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+void fun(int n){
+    if( n > 0){
+        printf("%d ", n);
+        fun(n-1);
+        fun(n-1);
+    }
+}
+
 int main()
-{
-    printf("Hello world!\n");
-    return 0;
+{   int x = 3;
+    fun(x);
+    printf("");
 }
