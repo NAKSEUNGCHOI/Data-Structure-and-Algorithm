@@ -30,11 +30,58 @@ int RBinarySearch(struct Array *arr, int l, int r, int x){
     return -1;
 }
 
+int Get(struct Array *arr, int index){
+    if(index >= 0 && index < arr->length){
+        return arr->A[index-1];
+    }
+}
+void Set(struct Array *arr, int index, int x){
+    if(index >= 0 && index < arr->length){
+        arr->A[index-1] = x;
+    }
+}
+void Min(struct Array *arr){
+    printf("%d\n", arr->A[0]);
+}
+void Max(struct Array *arr){
+    printf("%d\n", arr->A[arr->length-1]);
+}
+void Avg(struct Array *arr){
+    int average;
+    for(int i = 0; i < arr->length; i++){
+        average = average + arr->A[i];
+    }
+    printf("%lf\n", (double)average/(arr->length));
+}
+
+void Reverse(struct Array *arr){
+    struct Array *temp = (struct Array*)malloc(sizeof(struct Array));
+    for(int i = arr->length-1, k = 0; i >=0; i--, k++){
+        temp->A[k] = arr->A[i];
+        printf("%d ", temp->A[k]);
+    }
+}
+
+void Display(struct Array *arr){
+    for(int i = 0; i < arr->length; i++){
+        printf("%d ", arr->A[i]);
+    }
+    printf("\n");
+}
+
+
 int main()
 {
     struct Array arr = {{4, 8, 10, 15, 18, 21, 24, 27, 29, 33, 34, 37, 39, 41, 43}, 15, 15};
     int result = BinarySearch(&arr, 27);
     printf("%d\n", result);
-    result = RBinarySearch(&arr, 0, arr.length-1, 28);
+    result = RBinarySearch(&arr, 0, arr.length-1, 27);
     printf("%d\n", result);
+    printf("%d\n", Get(&arr, 2));
+    //Set(&arr, 2, 6);
+    Display(&arr);
+    Max(&arr);
+    Min(&arr);
+    Avg(&arr);
+    Reverse(&arr);
 }
