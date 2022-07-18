@@ -2,16 +2,9 @@
 
 UW CSE Data structure and algorithm
 
-## Table of Contents
+## Description
 
-* Linked List
-* Inserting a node at the beginning.
-* Inserting a node at the end.
-* Inserting a node at n-th position.
-* Deleting a node at n-th position.
-* Reversing nodes.
-
-To be continued...
+* DSA
 
 ## Authors
 
