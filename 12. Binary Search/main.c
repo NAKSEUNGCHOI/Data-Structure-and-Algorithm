@@ -41,13 +41,14 @@ void Set(struct Array *arr, int index, int x){
     }
 }
 void Min(struct Array *arr){
-    printf("%d\n", arr->A[0]);
+    printf("Min: %d\n", arr->A[0]);
 }
 void Max(struct Array *arr){
-    printf("%d\n", arr->A[arr->length-1]);
+    printf("Max: %d\n", arr->A[arr->length-1]);
 }
 void Avg(struct Array *arr){
     int average;
+    printf("Average: ");
     for(int i = 0; i < arr->length; i++){
         average = average + arr->A[i];
     }
@@ -56,10 +57,50 @@ void Avg(struct Array *arr){
 
 void Reverse(struct Array *arr){
     struct Array *temp = (struct Array*)malloc(sizeof(struct Array));
+    printf("Reverse: ");
     for(int i = arr->length-1, k = 0; i >=0; i--, k++){
         temp->A[k] = arr->A[i];
         printf("%d ", temp->A[k]);
     }
+    free(temp);
+    printf("\n");
+}
+void ReverseMethod2(struct Array *arr){
+    struct Array *temp = (struct Array*)malloc(sizeof(struct Array));
+    int store;
+    printf("ReverseMethod2: ");
+    for(int i = 0, k = arr->length-1; i<k; i++, k--){
+        store = arr->A[i];
+        arr->A[i] = temp->A[k];
+        temp->A[k] = store;
+    }
+    for(int i = 0; i < arr->length; i++){
+        printf("%d ", arr->A[i]);
+    }
+    printf("\n");
+}
+void leftshift(struct Array *arr){
+    int temp = arr->A[0];
+    printf("Leftshift: ");
+    for(int i = 1; i < arr->length; i++){
+        arr->A[i-1] = arr->A[i];
+        if(i == arr->length-1){
+            arr->A[arr->length-1] = temp;
+        }
+        printf("%d ", arr->A[i]);
+    }
+    printf("\n");
+
+}
+
+void Insert(struct Array *arr, int x){
+    int i = arr->length-1;
+    printf("Insert 22: ");
+    while(arr->A[i] > x){
+        arr->A[i+1] = arr->A[i];
+        i--;
+    }
+    arr->A[i+1] = x;
 }
 
 void Display(struct Array *arr){
@@ -84,4 +125,9 @@ int main()
     Min(&arr);
     Avg(&arr);
     Reverse(&arr);
+    ReverseMethod2(&arr);
+    //leftshift(&arr);
+
+    Insert(&arr, 22);
+    Display(&arr);
 }
