@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1658813601 source:c:\users\chlsk\onedrive\desktop\code blocks\19. parenthesis matching\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
