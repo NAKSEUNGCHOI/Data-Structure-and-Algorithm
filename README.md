@@ -12,6 +12,7 @@ UW CSE Data structure and algorithm
 
 ## Release Notes
 
+* <pre> Solved 37 problems & reviewed 20 problems                                                                   9-11-2022 </pre>
 * <pre> Solved 27 problems total. (Floyd's cycle detection algorithm, hashmap/sliding window techniques)            9-07-2022 </pre>
 * <pre> Solved 20 problems...                                                                                       9-05-2022 </pre>   
 * <pre> TOP interview problem leetcode started using C++                                                            9-03-2022 </pre>
